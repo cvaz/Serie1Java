@@ -9,7 +9,7 @@ public class SquaresSortedTest {
     @Test
     public void squaresSorted_onArrayWithNoElements(){
         int[] array={};
-        assertArrayEquals(null,squaresSorted(array));
+        assertArrayEquals(array,squaresSorted(array));
     }
 
     @Test
